@@ -1,4 +1,4 @@
-FROM 203.0.0-alpine
+FROM google/cloud-sdk:203.0.0-alpine
 MAINTAINER Yasushi Kobayashi <ptpadan@gmail.com>
 
 RUN gcloud components install docker-credential-gcr
